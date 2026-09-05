@@ -1,0 +1,586 @@
+/* Final visual pass: readable type and generous controls at every viewport. */
+.topbar {
+  font-size: 12px;
+}
+.nav a {
+  font-size: 14px;
+}
+.header-cta {
+  font-size: 13px;
+}
+.hero-description {
+  font-size: 16px;
+  max-width: 450px;
+}
+.hero-actions .button {
+  font-size: 14px;
+}
+.hero-location {
+  font-size: 12px;
+}
+.hero-location small,
+.rating-meta {
+  font-size: 11px;
+}
+.source-date {
+  font-size: 10px;
+}
+.workshop-bottom {
+  font-size: 11px;
+}
+.cross-two {
+  display: none;
+}
+.brand-mark {
+  overflow: hidden;
+  background: var(--blue);
+  transform: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 6px;
+}
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.workshop-ribbon .container > span:not(.ribbon-plus),
+.workshop-ribbon a {
+  font-size: 13px;
+}
+.eyebrow {
+  font-size: 12px;
+}
+.diagnostic-intro > p {
+  font-size: 16px;
+}
+.diagnostic-note p {
+  font-size: 14px;
+}
+.diagnostic-form legend,
+.model-fields label {
+  font-size: 14px;
+}
+.device-option {
+  font-size: 12px;
+  min-height: 48px;
+}
+.model-fields input,
+.model-fields select {
+  font-size: 15px;
+  min-height: 48px;
+}
+.optional {
+  font-size: 12px;
+}
+.symptom-option {
+  font-size: 12px;
+  min-height: 44px;
+}
+.diagnostic-submit .button {
+  font-size: 14px;
+}
+.diagnostic-submit > span {
+  font-size: 12px;
+}
+.diagnostic-result > small {
+  font-size: 12px;
+}
+.diagnostic-result .result-caveat {
+  font-size: 14px;
+}
+.manual-telegram {
+  margin-bottom: 18px;
+}
+.section-heading > p {
+  font-size: 16px;
+}
+.price-intro,
+.price-intro > a {
+  font-size: 13px;
+}
+.price-intro > a {
+  min-height: 44px;
+}
+.service-card h3 {
+  font-size: 17px;
+  min-height: 48px;
+}
+.service-card > p {
+  font-size: 13px;
+  min-height: 70px;
+}
+.service-time {
+  font-size: 10px;
+  line-height: 1.7;
+}
+.service-price > span {
+  font-size: 20px;
+}
+.service-card.price-unknown .service-price > span {
+  font-size: 14px;
+}
+.round-arrow {
+  width: 44px;
+  height: 44px;
+}
+.price-note,
+.brands > p {
+  font-size: 12px;
+}
+.brands > span {
+  font-size: 13px;
+}
+.process-steps h3 {
+  font-size: 18px;
+}
+.process-steps p {
+  font-size: 14px;
+}
+.advantages h3 {
+  font-size: 16px;
+}
+.advantages p {
+  font-size: 13px;
+}
+.workshop-copy > p {
+  font-size: 16px;
+}
+.master-profile strong {
+  font-size: 14px;
+}
+.master-profile div > span {
+  font-size: 12px;
+}
+.workshop-copy .text-link {
+  font-size: 14px;
+}
+.comparison-caption {
+  font-size: 12px;
+}
+.platform-ratings strong {
+  font-size: 14px;
+}
+.platform-ratings small {
+  font-size: 11px;
+}
+.review-top h3 {
+  font-size: 14px;
+}
+.review-top div > span {
+  font-size: 11px;
+}
+.review-card blockquote {
+  font-size: 16px;
+}
+.review-card > a {
+  font-size: 12px;
+  min-height: 44px;
+}
+.reviews-footer p {
+  font-size: 12px;
+}
+.reviews-footer a {
+  font-size: 13px;
+}
+.accessory-card h3 {
+  font-size: 15px;
+  min-height: 44px;
+}
+.accessory-card > p {
+  font-size: 12px;
+}
+.accessory-action {
+  font-size: 12px;
+  min-height: 44px;
+  gap: 4px;
+}
+.accessory-note {
+  font-size: 12px;
+}
+.faq-layout > div:first-child > p {
+  font-size: 16px;
+}
+.faq-list summary {
+  font-size: 15px;
+}
+.faq-list details > p {
+  font-size: 15px;
+}
+.faq-layout .text-link {
+  font-size: 14px;
+}
+.contacts-copy address strong {
+  font-size: 18px;
+}
+.contacts-copy address > span {
+  font-size: 14px;
+}
+.contacts-copy address small {
+  font-size: 12px;
+}
+.contact-hours strong {
+  font-size: 14px;
+}
+.contact-hours small {
+  font-size: 12px;
+}
+.contact-messengers > a {
+  min-height: 44px;
+  font-size: 15px;
+}
+.route-card-content p {
+  font-size: 14px;
+}
+.route-caption {
+  font-size: 11px;
+}
+.map-links > a {
+  min-height: 44px;
+  font-size: 13px;
+}
+.footer-brand span,
+.footer-top > p,
+.footer-links {
+  font-size: 12px;
+}
+.footer-links > a {
+  min-height: 38px;
+  display: flex;
+  align-items: center;
+}
+.footer-bottom {
+  font-size: 11px;
+}
+.footer-bottom button {
+  min-height: 44px;
+}
+.dialog-content p {
+  font-size: 15px;
+}
+.mobile-bottom > a {
+  font-size: 12px;
+}
+@media (max-width: 1190px) {
+  .nav {
+    gap: 14px;
+  }
+  .nav a {
+    font-size: 12px;
+  }
+  .hero-actions .button {
+    font-size: 12px;
+  }
+  .hero-trust {
+    gap: 13px;
+  }
+  .hero-location {
+    font-size: 11px;
+  }
+  .hero-location small,
+  .rating-meta {
+    font-size: 10px;
+  }
+  .service-price > span {
+    font-size: 18px;
+  }
+  .service-card.price-unknown .service-price > span {
+    font-size: 12px;
+  }
+  .accessories-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px 18px;
+  }
+  .accessory-card h3 {
+    min-height: 22px;
+  }
+}
+@media (max-width: 960px) {
+  .nav a {
+    font-size: 16px;
+  }
+  .hero-actions .button {
+    font-size: 13px;
+  }
+  .hero-trust {
+    gap: 12px;
+  }
+  .hero-workshop {
+    height: 510px;
+  }
+  .workshop-bottom > span:last-child {
+    font-size: 0;
+  }
+  .workshop-ribbon .container > span:not(.ribbon-plus) {
+    font-size: 12px;
+  }
+  .service-card.price-unknown .service-price > span {
+    font-size: 16px;
+  }
+  .service-card h3 {
+    min-height: 0;
+  }
+  .section-heading > p {
+    font-size: 14px;
+  }
+  .workshop-copy > p {
+    font-size: 14px;
+  }
+  .review-card {
+    padding: 20px;
+  }
+  .review-top {
+    align-items: flex-start;
+  }
+  .review-top h3 {
+    font-size: 12px;
+  }
+  .review-card blockquote {
+    font-size: 14px;
+  }
+  .review-card > a {
+    font-size: 10px;
+  }
+  .platform-ratings {
+    gap: 18px;
+  }
+  .platform-ratings strong {
+    font-size: 12px;
+  }
+  .platform-ratings small {
+    font-size: 10px;
+  }
+  .reviews-footer {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .contacts-copy address strong {
+    font-size: 15px;
+  }
+  .contact-hours small {
+    font-size: 11px;
+  }
+  .footer-bottom {
+    font-size: 11px;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    scroll-padding-bottom: 90px;
+  }
+  .topbar {
+    font-size: 11px;
+  }
+  .hero h1 br:nth-of-type(2) {
+    display: block;
+  }
+  .hero h1 > span:before {
+    content: none;
+  }
+  .hero h1 {
+    font-size: clamp(44px, 13vw, 51px);
+  }
+  .hero-copy > .eyebrow {
+    font-size: 10px;
+  }
+  .hero-description {
+    font-size: 15px;
+  }
+  .hero-actions .button {
+    font-size: 12px;
+    padding-inline: 11px;
+    gap: 7px;
+    white-space: normal;
+  }
+  .hero-actions .button svg {
+    width: 16px;
+    height: 16px;
+  }
+  .hero-trust {
+    flex-wrap: wrap;
+    gap: 13px 19px;
+  }
+  .hero-location {
+    font-size: 11px;
+  }
+  .hero-location small,
+  .rating-meta {
+    font-size: 10px;
+  }
+  .hero-location small {
+    max-width: 166px;
+  }
+  .trust-divider {
+    display: none;
+  }
+  .source-date {
+    font-size: 10px;
+  }
+  .hero-workshop {
+    height: 354px;
+  }
+  .workshop-bottom > span:last-child {
+    font-size: 10px;
+  }
+  .workshop-bottom {
+    font-size: 10px;
+  }
+  .workshop-ribbon .container > span:not(.ribbon-plus) {
+    font-size: 11px;
+  }
+  .eyebrow,
+  .workshop-copy .eyebrow {
+    font-size: 11px;
+  }
+  .diagnostic-intro > p {
+    font-size: 15px;
+  }
+  .diagnostic-note p {
+    font-size: 12px;
+  }
+  .diagnostic-form {
+    padding-inline: 16px;
+  }
+  .diagnostic-form legend,
+  .model-fields label {
+    font-size: 14px;
+  }
+  .model-fields input,
+  .model-fields select {
+    font-size: 16px;
+  }
+  .symptom-option {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .diagnostic-submit .button {
+    font-size: 13px;
+  }
+  .diagnostic-submit > span {
+    font-size: 11px;
+  }
+  .diagnostic-submit > span br {
+    display: block;
+  }
+  .service-card h3 {
+    font-size: 14px;
+    min-height: 62px;
+  }
+  .service-card > p {
+    font-size: 12px;
+    min-height: 100px;
+  }
+  .service-card .service-price {
+    flex-wrap: wrap;
+  }
+  .service-price > span {
+    font-size: 17px;
+  }
+  .service-card.price-unknown .service-price > span {
+    font-size: 12px;
+  }
+  .round-arrow {
+    width: 44px;
+    min-height: 44px;
+  }
+  .service-time {
+    font-size: 10px;
+  }
+  .price-intro {
+    font-size: 12px;
+  }
+  .price-intro > a {
+    font-size: 11px;
+  }
+  .price-note,
+  .brands > p {
+    font-size: 12px;
+  }
+  .process-steps h3 {
+    font-size: 15px;
+  }
+  .process-steps p {
+    font-size: 13px;
+  }
+  .advantages h3 {
+    font-size: 15px;
+  }
+  .advantages p {
+    font-size: 13px;
+  }
+  .workshop-copy > p {
+    font-size: 15px;
+  }
+  .master-profile strong {
+    font-size: 13px;
+  }
+  .master-profile div > span {
+    font-size: 11px;
+  }
+  .comparison-caption {
+    font-size: 11px;
+  }
+  .platform-ratings strong {
+    font-size: 14px;
+  }
+  .platform-ratings small {
+    font-size: 11px;
+  }
+  .review-top h3 {
+    font-size: 14px;
+  }
+  .review-card blockquote {
+    font-size: 16px;
+  }
+  .review-card > a {
+    font-size: 12px;
+  }
+  .reviews-footer a {
+    font-size: 12px;
+    white-space: normal;
+  }
+  .accessories-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px 14px;
+  }
+  .accessory-card h3 {
+    font-size: 14px;
+    min-height: 42px;
+  }
+  .accessory-card > p {
+    font-size: 12px;
+    min-height: 38px;
+  }
+  .accessory-action {
+    font-size: 12px;
+  }
+  .faq-list summary,
+  .faq-list details > p {
+    font-size: 14px;
+  }
+  .contacts-copy address strong {
+    font-size: 16px;
+  }
+  .contact-hours small {
+    font-size: 12px;
+  }
+  .footer-top > p {
+    max-width: none;
+    width: 100%;
+  }
+  .footer-links {
+    gap: 2px 28px;
+  }
+  .footer-links > a {
+    min-height: 44px;
+  }
+  .footer-brand span {
+    font-size: 12px;
+  }
+  .footer-bottom {
+    font-size: 12px;
+  }
+  .footer-bottom button {
+    min-height: 44px;
+  }
+}

@@ -1,0 +1,36 @@
+### Result
+{"data":{"title":"СотРемонт — ремонт телефонов в Казани | Сибирский Тракт, 7/6","description":"Ремонт телефонов и аксессуары в Казани. Опишите проблему, узнайте возможный ремонт и свяжитесь с мастером СотРемонт. Сибирский Тракт, 7/6. +7 995 942-13-38.","openGraph":"СотРемонт — ремонт телефонов в Казани | Сибирский Тракт, 7/6","schemaType":"LocalBusiness","phone":"+7 995 942-13-38","address":{"@type":"PostalAddress","streetAddress":"улица Сибирский Тракт, 7/6","addressLocality":"Казань","addressRegion":"Республика Татарстан","postalCode":"420029","addressCountry":"RU"},"canonical":null,"robots":"User-agent: *\nDisallow: /\n# Set site.seo.canonicalUrl before publishing.\n","validSitemap":true,"localAssets":true,"scripts":1,"jsonLdNoInventedRating":true},"errors":[],"warnings":[],"failed":[],"productionDiagnostic":true}
+### Ran Playwright code
+```js
+await (async (page) => {
+  const errors = [], warnings = [], failed = [];
+  page.on('pageerror', error => errors.push(error.message));
+  page.on('console', msg => { if (msg.type() === 'error') errors.push(msg.text()); if (msg.type() === 'warning') warnings.push(msg.text()); });
+  page.on('requestfailed', req => failed.push(req.url()));
+  await page.context().unroute('https://t.me/**');
+  await page.setViewportSize({ width:1440, height:1000 });
+  await page.goto('http://127.0.0.1:4173/');
+  await page.getByRole('heading', {level:1}).waitFor();
+  await page.evaluate(() => document.fonts.ready);
+  const data = await page.evaluate(async () => {
+    const robots = await fetch('/robots.txt').then(r => r.text());
+    const sitemap = await fetch('/sitemap.xml').then(r => r.text());
+    const schema = JSON.parse(document.querySelector('script[type="application/ld+json"]').textContent);
+    return { title:document.title, description:document.querySelector('meta[name=description]').content, openGraph:document.querySelector('meta[property="og:title"]').content, schemaType:schema['@type'], phone:schema.telephone, address:schema.address, canonical:document.querySelector('link[rel=canonical]')?.href ?? null, robots, validSitemap:!new DOMParser().parseFromString(sitemap,'application/xml').querySelector('parsererror'), localAssets:performance.getEntriesByType('resource').every(r=>r.name.startsWith(location.origin)), scripts:performance.getEntriesByType('resource').filter(r=>r.name.endsWith('.js')).length, jsonLdNoInventedRating:!schema.aggregateRating };
+  });
+  if (data.schemaType !== 'LocalBusiness' || !data.validSitemap || !data.localAssets || !data.jsonLdNoInventedRating || errors.length || failed.length) throw new Error(JSON.stringify({data,errors,failed}));
+  await page.getByRole('link', {name:'Узнать стоимость',exact:true}).click();
+  await page.getByRole('radio', {name:'Не заряжается',exact:true}).check();
+  await page.getByRole('button', {name:'Подсказать ремонт',exact:true}).click();
+  if (await page.locator('.diagnostic-result h3').textContent() !== 'Ремонт разъёма зарядки') throw new Error('Production flow failed');
+  await page.goto('http://127.0.0.1:5173/');
+  await page.getByRole('heading', {level:1}).waitFor();
+  return {data, errors, warnings, failed, productionDiagnostic:true};
+}
+)(page);
+```
+### Page
+- Page URL: http://127.0.0.1:5173/
+- Page Title: СотРемонт — ремонт телефонов в Казани | Сибирский Тракт, 7/6
+### Events
+- New console entries: .playwright-cli\console-2026-09-05T10-59-41-299Z.log#L24

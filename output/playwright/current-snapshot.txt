@@ -1,0 +1,469 @@
+### Page
+- Page URL: http://127.0.0.1:5173/
+- Page Title: СотРемонт — ремонт телефонов в Казани | Сибирский Тракт, 7/6
+- Console: 0 errors, 1 warnings
+### Snapshot
+```yaml
+- generic [ref=f3e2]:
+  - link "Перейти к содержимому" [ref=f3e3] [cursor=pointer]:
+    - /url: "#main"
+  - link "Казань, Сибирский Тракт, 7/6" [ref=f3e6] [cursor=pointer]:
+    - /url: https://yandex.ru/maps/?mode=routes&rtext=~Казань%2C%20Сибирский%20Тракт%2C%207%2F6&rtt=auto
+  - banner [ref=f3e10]:
+    - generic [ref=f3e11]:
+      - link "СотРемонт — на главную" [ref=f3e12] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=f3e14]:
+          - text: СотРемонт
+          - generic [ref=f3e15]: СВОЙ МАСТЕР В КАЗАНИ
+      - button "Открыть меню" [ref=f3e16] [cursor=pointer]
+  - main [ref=f3e19]:
+    - region [ref=f3e20]:
+      - generic [ref=f3e21]:
+        - generic [ref=f3e22]:
+          - generic [ref=f3e23]: РЕМОНТ ТЕЛЕФОНОВ В КАЗАНИ
+          - heading "Вернём телефон в строй." [level=1] [ref=f3e25]:
+            - text: Вернёмтелефон
+            - generic [ref=f3e26]: в строй.
+          - paragraph [ref=f3e27]: Разбит экран? Не держит заряд?Выберите проблему — подскажем возможный ремонт и свяжем с мастером.
+          - generic [ref=f3e28]:
+            - link "Узнать стоимость" [ref=f3e29] [cursor=pointer]:
+              - /url: "#diagnostic"
+            - link "Написать мастеру" [ref=f3e32] [cursor=pointer]:
+              - /url: https://t.me/sotremont
+          - generic [ref=f3e36]:
+            - link "5.0 5 из 5 135 оценок в 2ГИС" [ref=f3e37] [cursor=pointer]:
+              - /url: https://2gis.ru/kazan/firm/70000001083733393
+              - generic [ref=f3e38]: "5.0"
+              - generic [ref=f3e39]:
+                - generic "5 из 5" [ref=f3e40]: ★★★★★
+                - generic [ref=f3e41]: 135 оценок в 2ГИС
+            - generic [ref=f3e48]:
+              - text: Сибирский Тракт, 7/6
+              - generic [ref=f3e49]: магазин «Хлебозавод № 3»
+          - paragraph [ref=f3e50]: Рейтинг проверен 05.09.2026
+        - generic [ref=f3e51]:
+          - generic [ref=f3e52]: СОТРЕМОНТ / КАЗАНЬ
+          - generic [aria-hidden] [ref=f3e56]: +
+          - img "Фирменная жёлтая утка-мастер СотРемонт в очках, с пропеллером, телефоном и отвёрткой" [ref=f3e58]
+          - generic [ref=f3e59]:
+            - text: ТЕХНИКА КАПРИЗНИЧАЕТ?
+            - strong [ref=f3e60]: Разберёмся.
+          - link "✳ УТКА-ДИАГНОСТ Начать знакомство" [ref=f3e63] [cursor=pointer]:
+            - /url: "#diagnostic"
+            - generic [ref=f3e64]:
+              - generic [ref=f3e65]: ✳
+              - text: УТКА-ДИАГНОСТ
+            - generic [ref=f3e66]: Начать знакомство
+    - generic [ref=f3e70]:
+      - generic [ref=f3e71]: Ремонт телефонов
+      - generic [aria-hidden] [ref=f3e75]: +
+      - generic [ref=f3e76]: Аксессуары и защита
+    - region [ref=f3e80]:
+      - generic [ref=f3e81]:
+        - generic [ref=f3e82]:
+          - generic [ref=f3e83]:
+            - generic [ref=f3e84]: ✳
+            - text: УТКА-ДИАГНОСТ
+          - heading "Ну что, что случилось?" [level=2] [ref=f3e85]: Ну что,что случилось?
+          - paragraph [ref=f3e86]: Пара деталей — и мастеру будет проще помочь. Начнём с вашего устройства.
+          - paragraph [ref=f3e91]: Это предварительная подсказка. Точную причину определит мастер.
+        - generic [ref=f3e92]:
+          - group "1 Какое устройство?" [ref=f3e93]:
+            - generic [ref=f3e94]:
+              - generic [ref=f3e95]: "1"
+              - text: Какое устройство?
+            - generic [ref=f3e96]:
+              - generic [ref=f3e97] [cursor=pointer]:
+                - radio "Смартфон" [checked] [ref=f3e98]
+                - text: Смартфон
+              - generic [ref=f3e102] [cursor=pointer]:
+                - radio "Планшет" [ref=f3e103]
+                - text: Планшет
+              - generic [ref=f3e106] [cursor=pointer]:
+                - radio "Смарт-часы" [ref=f3e107]
+                - text: Смарт-часы
+              - generic [ref=f3e111] [cursor=pointer]:
+                - radio "Компьютер" [ref=f3e112]
+                - text: Компьютер
+          - group "2 Бренд и модель" [ref=f3e116]:
+            - generic [ref=f3e117]:
+              - generic [ref=f3e118]: "2"
+              - text: Бренд и модель
+            - generic [ref=f3e119]:
+              - generic [ref=f3e120]:
+                - text: Бренд
+                - combobox "Бренд" [ref=f3e121]:
+                  - option "Apple / iPhone" [selected]
+                  - option "Samsung"
+                  - option "Xiaomi"
+                  - option "Honor"
+                  - option "Huawei"
+                  - option "Realme"
+                  - option "Другой бренд"
+              - generic [ref=f3e122]:
+                - text: Модель если знаете
+                - combobox "Модель если знаете" [ref=f3e123]
+          - group "3 Что беспокоит?" [ref=f3e124]:
+            - generic [ref=f3e125]:
+              - generic [ref=f3e126]: "3"
+              - text: Что беспокоит?
+            - generic [ref=f3e127]:
+              - generic [ref=f3e128] [cursor=pointer]:
+                - radio "Разбит экран" [ref=f3e129]
+                - text: Разбит экран
+              - generic [ref=f3e130] [cursor=pointer]:
+                - radio "Разбито заднее стекло" [ref=f3e131]
+                - text: Разбито заднее стекло
+              - generic [ref=f3e132] [cursor=pointer]:
+                - radio "Не заряжается" [ref=f3e133]
+                - text: Не заряжается
+              - generic [ref=f3e134] [cursor=pointer]:
+                - radio "Быстро разряжается" [ref=f3e135]
+                - text: Быстро разряжается
+              - generic [ref=f3e136] [cursor=pointer]:
+                - radio "Не работает камера" [ref=f3e137]
+                - text: Не работает камера
+              - generic [ref=f3e138] [cursor=pointer]:
+                - radio "Нет звука" [ref=f3e139]
+                - text: Нет звука
+              - generic [ref=f3e140] [cursor=pointer]:
+                - radio "Попала вода" [ref=f3e141]
+                - text: Попала вода
+              - generic [ref=f3e142] [cursor=pointer]:
+                - radio "Нужно защитное стекло" [ref=f3e143]
+                - text: Нужно защитное стекло
+              - generic [ref=f3e144] [cursor=pointer]:
+                - radio "Другая проблема" [ref=f3e145]
+                - text: Другая проблема
+          - generic [ref=f3e146]:
+            - button "Подсказать ремонт" [ref=f3e147] [cursor=pointer]
+            - generic [ref=f3e150]: Без номера телефонаи обязательной записи
+    - generic [ref=f3e152]:
+      - generic [ref=f3e153]:
+        - generic [ref=f3e154]:
+          - generic [ref=f3e155]: ПО ДЕЛУ И ПО ДЕТАЛЯМ
+          - heading "Знакомая проблема? Поможем разобраться." [level=2] [ref=f3e156]: Знакомая проблема?Поможем разобраться.
+        - paragraph [ref=f3e157]: От треснувшего стекла до телефона, который решил не включаться.
+      - generic [ref=f3e158]:
+        - generic [ref=f3e159]: Популярные услуги
+        - link "Цены из 2ГИС" [ref=f3e162] [cursor=pointer]:
+          - /url: https://2gis.ru/kazan/firm/70000001083733393/tab/prices
+      - generic [ref=f3e165]:
+        - article [ref=f3e166]:
+          - generic [aria-hidden] [ref=f3e171]: +
+          - heading "Замена дисплея" [level=3] [ref=f3e172]
+          - paragraph [ref=f3e173]: Трещины, полосы или экран не реагирует на касания.
+          - generic [ref=f3e174]:
+            - generic [ref=f3e175]: от 990 ₽
+            - 'button "Уточнить цену: Замена дисплея" [ref=f3e176] [cursor=pointer]'
+          - generic [ref=f3e179]: Срок после диагностики
+        - article [ref=f3e180]:
+          - generic [aria-hidden] [ref=f3e185]: +
+          - heading "Замена аккумулятора" [level=3] [ref=f3e186]
+          - paragraph [ref=f3e187]: Заряд заканчивается быстрее, чем ваш день.
+          - generic [ref=f3e188]:
+            - generic [ref=f3e189]: от 690 ₽
+            - 'button "Уточнить цену: Замена аккумулятора" [ref=f3e190] [cursor=pointer]'
+          - generic [ref=f3e193]: Срок после диагностики
+        - article [ref=f3e194]:
+          - generic [aria-hidden] [ref=f3e198]: +
+          - heading "Ремонт разъёма зарядки" [level=3] [ref=f3e199]
+          - paragraph [ref=f3e200]: Не видит кабель. Цена для Android; iPhone — уточните у мастера.
+          - generic [ref=f3e201]:
+            - generic [ref=f3e202]: от 890 ₽
+            - 'button "Уточнить цену: Ремонт разъёма зарядки" [ref=f3e203] [cursor=pointer]'
+          - generic [ref=f3e206]: Срок после диагностики
+        - article [ref=f3e207]:
+          - generic [aria-hidden] [ref=f3e212]: +
+          - heading "Замена заднего стекла" [level=3] [ref=f3e213]
+          - paragraph [ref=f3e214]: Вернём корпусу аккуратный вид.
+          - generic [ref=f3e215]:
+            - generic [ref=f3e216]: Уточнить цену
+            - 'button "Уточнить цену: Замена заднего стекла" [ref=f3e217] [cursor=pointer]'
+          - generic [ref=f3e220]: Срок после диагностики
+        - article [ref=f3e221]:
+          - generic [aria-hidden] [ref=f3e227]: +
+          - heading "Ремонт камеры" [level=3] [ref=f3e228]
+          - paragraph [ref=f3e229]: Размытые снимки. Цена основной камеры Android; iPhone — уточните.
+          - generic [ref=f3e230]:
+            - generic [ref=f3e231]: от 890 ₽
+            - 'button "Уточнить цену: Ремонт камеры" [ref=f3e232] [cursor=pointer]'
+          - generic [ref=f3e235]: Срок после диагностики
+        - article [ref=f3e236]:
+          - generic [aria-hidden] [ref=f3e240]: +
+          - heading "Чистка динамиков" [level=3] [ref=f3e241]
+          - paragraph [ref=f3e242]: Собеседника плохо слышно, звук стал тише.
+          - generic [ref=f3e243]:
+            - generic [ref=f3e244]: 490 ₽
+            - 'button "Уточнить цену: Чистка динамиков" [ref=f3e245] [cursor=pointer]'
+          - generic [ref=f3e248]: Срок после диагностики
+        - article [ref=f3e249]:
+          - generic [aria-hidden] [ref=f3e254]: +
+          - heading "Установка защитного стекла" [level=3] [ref=f3e255]
+          - paragraph [ref=f3e256]: Подберём защиту под вашу модель.
+          - generic [ref=f3e257]:
+            - generic [ref=f3e258]: Уточнить цену
+            - 'button "Уточнить цену: Установка защитного стекла" [ref=f3e259] [cursor=pointer]'
+          - generic [ref=f3e262]: Срок после диагностики
+        - article [ref=f3e263]:
+          - generic [aria-hidden] [ref=f3e267]: +
+          - heading "Диагностика устройства" [level=3] [ref=f3e268]
+          - paragraph [ref=f3e269]: Разберёмся, что случилось и что можно сделать.
+          - generic [ref=f3e270]:
+            - generic [ref=f3e271]: Уточнить цену
+            - 'button "Уточнить цену: Диагностика устройства" [ref=f3e272] [cursor=pointer]'
+          - generic [ref=f3e275]: Срок после диагностики
+      - paragraph [ref=f3e276]: По прайсу 2ГИС от 14.06.2026. Цена зависит от модели и деталей. Что входит в сумму и итоговую стоимость подтвердит мастер после диагностики.
+      - generic [ref=f3e277]:
+        - text: Знакомы с вашей техникой
+        - generic [ref=f3e278]:
+          - generic [ref=f3e279]: iPhone
+          - generic [ref=f3e280]: SAMSUNG
+          - generic [ref=f3e281]: xiaomi
+          - generic [ref=f3e282]: HONOR
+          - generic [ref=f3e283]: HUAWEI
+          - generic [ref=f3e284]: realme
+        - paragraph [ref=f3e285]:
+          - text: Другие смартфоны и компьютеры — уточните ремонт модели. Планшет или смарт-часы?
+          - link "Спросите мастера" [ref=f3e286] [cursor=pointer]:
+            - /url: https://t.me/sotremont
+    - generic [ref=f3e290]:
+      - generic [ref=f3e291]:
+        - generic [ref=f3e292]:
+          - generic [ref=f3e293]: БЕЗ ТЕХНИЧЕСКОГО ТУМАНА
+          - heading "Вы — о проблеме. Мы — о решении." [level=2] [ref=f3e294]: Вы — о проблеме.Мы — о решении.
+        - paragraph [ref=f3e295]: Понятный путь от «что-то сломалось» до встречи с вашим устройством.
+      - list [ref=f3e296]:
+        - listitem [ref=f3e297]:
+          - generic [ref=f3e298]: "01"
+          - heading "Рассказываете о проблеме" [level=3] [ref=f3e302]
+          - paragraph [ref=f3e303]: Выберите симптомы на сайте или напишите мастеру своими словами.
+        - listitem [ref=f3e304]:
+          - generic [ref=f3e305]: "02"
+          - heading "Мастер проводит диагностику" [level=3] [ref=f3e309]
+          - paragraph [ref=f3e310]: Уточните условия диагностики перед передачей устройства.
+        - listitem [ref=f3e311]:
+          - generic [ref=f3e312]: "03"
+          - heading "Согласовываете цену и срок" [level=3] [ref=f3e316]
+          - paragraph [ref=f3e317]: Обсудите нужные работы, детали и стоимость с мастером.
+        - listitem [ref=f3e318]:
+          - generic [ref=f3e319]: "04"
+          - heading "Получаете устройство" [level=3] [ref=f3e321]
+          - paragraph [ref=f3e322]: Проверьте работу устройства вместе с мастером и уточните рекомендации.
+      - generic [ref=f3e323]:
+        - generic [ref=f3e328]:
+          - heading "На связи с мастером" [level=3] [ref=f3e329]
+          - paragraph [ref=f3e330]: Позвоните или напишите в мессенджер. Можно сразу рассказать о проблеме и задать вопросы.
+        - generic [ref=f3e334]:
+          - heading "Отзывы можно проверить" [level=3] [ref=f3e335]
+          - paragraph [ref=f3e336]: Реальные истории клиентов — на Яндекс Картах и в 2ГИС. Все ссылки открыты.
+        - generic [ref=f3e341]:
+          - heading "Рядом, в Казани" [level=3] [ref=f3e342]
+          - paragraph [ref=f3e343]: Сибирский Тракт, 7/6. Ориентир — магазин «Хлебозавод № 3».
+    - generic [ref=f3e345]:
+      - generic [ref=f3e346]:
+        - generic [ref=f3e347]:
+          - generic [ref=f3e348]: 09:41
+          - generic [ref=f3e354]: 09:41
+          - generic [ref=f3e362]: До
+          - generic [ref=f3e363]: После
+          - generic [aria-hidden]:
+            - generic: ↔
+          - generic [ref=f3e364]: "Сравнить до и после: положение разделителя"
+          - 'slider "Сравнить до и после: положение разделителя" [ref=f3e365]': "50"
+        - paragraph [ref=f3e366]: Иллюстрация замены экрана, не фотография выполненной работы.
+      - generic [ref=f3e367]:
+        - generic [ref=f3e368]: МАСТЕРСКАЯ, А НЕ КОЛЛ-ЦЕНТР
+        - heading "За ремонтом — живой человек." [level=2] [ref=f3e369]: За ремонтом —живой человек.
+        - paragraph [ref=f3e370]: У телефона своя история. И прежде чем браться за инструменты, её нужно услышать.
+        - paragraph [ref=f3e371]: Расскажите, когда появилась проблема, что уже пробовали и что важно сохранить. Можно без технических терминов — поймём.
+        - generic [ref=f3e376]:
+          - strong [ref=f3e377]: Ваш мастер в СотРемонт
+          - generic [ref=f3e378]: На связи по телефону и в мессенджерах
+        - link "Написать мастеру" [ref=f3e379] [cursor=pointer]:
+          - /url: https://t.me/sotremont
+    - generic [ref=f3e383]:
+      - generic [ref=f3e384]:
+        - generic [ref=f3e385]:
+          - generic [ref=f3e386]: СЛОВО КЛИЕНТАМ
+          - heading "Репутация — в реальных историях." [level=2] [ref=f3e387]: Репутация —в реальных историях.
+        - generic [ref=f3e388]:
+          - link "5.0 звёзд 2ГИС 131 отзывов · 135 оценок" [ref=f3e389] [cursor=pointer]:
+            - /url: https://2gis.ru/kazan/firm/70000001083733393
+            - generic [ref=f3e390]: 5.0 ★
+            - strong [ref=f3e391]: 2ГИС
+            - generic [ref=f3e394]: 131 отзывов · 135 оценок
+          - link "5.0 звёзд Яндекс Карты 118 отзывов · 126 оценок" [ref=f3e395] [cursor=pointer]:
+            - /url: https://yandex.ru/maps/org/sotremont/196388969596/
+            - generic [ref=f3e396]: 5.0 ★
+            - strong [ref=f3e397]: Яндекс Карты
+            - generic [ref=f3e400]: 118 отзывов · 126 оценок
+      - generic [ref=f3e401]:
+        - article [ref=f3e402]:
+          - generic [ref=f3e403]:
+            - generic [ref=f3e404]: Я
+            - generic [ref=f3e405]:
+              - heading "Яр Оразов" [level=3] [ref=f3e406]
+              - generic [ref=f3e407]: 30 июня
+            - generic [aria-hidden] [ref=f3e408]: “
+          - blockquote [ref=f3e409]: Заменили аккум на 16 про, спасибо большое мастеру Фаннуру спец своего дела 🙏
+          - link "Читать в источнике · Яндекс Карты" [ref=f3e410] [cursor=pointer]:
+            - /url: https://sotremont.clients.site/#rating
+        - article [ref=f3e413]:
+          - generic [ref=f3e414]:
+            - generic [ref=f3e415]: В
+            - generic [ref=f3e416]:
+              - heading "валерия" [level=3] [ref=f3e417]
+              - generic [ref=f3e418]: 29 июня · фрагмент
+            - generic [aria-hidden] [ref=f3e419]: “
+          - blockquote [ref=f3e420]: Всё подробно объяснили и сразу взялись за работу.
+          - link "Читать в источнике · Яндекс Карты" [ref=f3e421] [cursor=pointer]:
+            - /url: https://sotremont.clients.site/#rating
+        - article [ref=f3e424]:
+          - generic [ref=f3e425]:
+            - generic [ref=f3e426]: С
+            - generic [ref=f3e427]:
+              - heading "Степан Плотников" [level=3] [ref=f3e428]
+              - generic [ref=f3e429]: Публичный отзыв · фрагмент
+            - generic [aria-hidden] [ref=f3e430]: “
+          - blockquote [ref=f3e431]: качественный сервис быстро сделали самсунг, вежливые сотрудники все по факту
+          - link "Читать в источнике · 2ГИС" [ref=f3e432] [cursor=pointer]:
+            - /url: https://2gis.ru/kazan/firm/70000001083733393/tab/reviews
+      - generic [ref=f3e435]:
+        - paragraph [ref=f3e436]: Публичные отзывы и рейтинги проверены 05.09.2026. Значения на картах могут измениться.
+        - link "Все отзывы на Яндекс Картах" [ref=f3e437] [cursor=pointer]:
+          - /url: https://yandex.ru/maps/org/sotremont/196388969596/
+    - generic [ref=f3e441]:
+      - generic [ref=f3e442]:
+        - generic [ref=f3e443]:
+          - generic [ref=f3e444]: НЕ ТОЛЬКО РЕМОНТ
+          - heading "Мелочи, которые берегут телефон." [level=2] [ref=f3e445]: Мелочи, которыеберегут телефон.
+        - paragraph [ref=f3e446]: Стекло, чехол или новый кабель.Напишите модель — уточним наличие.
+      - generic [ref=f3e447]:
+        - link [ref=f3e448] [cursor=pointer]:
+          - /url: https://wa.me/79959421338?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%B8%D0%B5%20%D0%B8%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%3A%20%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D1%8B%D0%B5%20%D1%81%D1%82%D1%91%D0%BA%D0%BB%D0%B0.%20%D0%9F%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D1%8B%2C%20%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C.
+          - heading "Защитные стёкла" [level=3] [ref=f3e453]
+          - paragraph [ref=f3e454]: Защита на каждый день
+          - generic [ref=f3e455]: Уточнить наличие
+        - link [ref=f3e458] [cursor=pointer]:
+          - /url: https://wa.me/79959421338?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%B8%D0%B5%20%D0%B8%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%3A%20%D0%A7%D0%B5%D1%85%D0%BB%D1%8B.%20%D0%9F%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D1%8B%2C%20%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C.
+          - heading "Чехлы" [level=3] [ref=f3e463]
+          - paragraph [ref=f3e464]: Под вашу модель и стиль
+          - generic [ref=f3e465]: Уточнить наличие
+        - link [ref=f3e468] [cursor=pointer]:
+          - /url: https://wa.me/79959421338?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%B8%D0%B5%20%D0%B8%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%3A%20%D0%9A%D0%B0%D0%B1%D0%B5%D0%BB%D0%B8.%20%D0%9F%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D1%8B%2C%20%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C.
+          - heading "Кабели" [level=3] [ref=f3e473]
+          - paragraph [ref=f3e474]: Для зарядки и подключения
+          - generic [ref=f3e475]: Уточнить наличие
+        - link [ref=f3e478] [cursor=pointer]:
+          - /url: https://wa.me/79959421338?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%B8%D0%B5%20%D0%B8%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%3A%20%D0%97%D0%B0%D1%80%D1%8F%D0%B4%D0%BD%D1%8B%D0%B5%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0.%20%D0%9F%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D1%8B%2C%20%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C.
+          - heading "Зарядные устройства" [level=3] [ref=f3e483]
+          - paragraph [ref=f3e484]: Подберём совместимое
+          - generic [ref=f3e485]: Уточнить наличие
+        - link [ref=f3e488] [cursor=pointer]:
+          - /url: https://wa.me/79959421338?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%B8%D0%B5%20%D0%B8%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%3A%20%D0%9D%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8.%20%D0%9F%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D1%8B%2C%20%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C.
+          - heading "Наушники" [level=3] [ref=f3e494]
+          - paragraph [ref=f3e495]: Музыка и разговоры
+          - generic [ref=f3e496]: Уточнить наличие
+        - link [ref=f3e499] [cursor=pointer]:
+          - /url: https://wa.me/79959421338?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%B8%D0%B5%20%D0%B8%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%3A%20%D0%94%D1%80%D1%83%D0%B3%D0%B8%D0%B5%20%D0%B0%D0%BA%D1%81%D0%B5%D1%81%D1%81%D1%83%D0%B0%D1%80%D1%8B.%20%D0%9F%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D1%8B%2C%20%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C.
+          - heading "Другие аксессуары" [level=3] [ref=f3e506]
+          - paragraph [ref=f3e507]: Спросите, что ищете
+          - generic [ref=f3e508]: Уточнить наличие
+      - paragraph [ref=f3e511]: Наличие, совместимость, стоимость и бронирование подтверждает мастер в переписке.
+    - generic [ref=f3e513]:
+      - generic [ref=f3e514]:
+        - generic [ref=f3e515]: ПОГОВОРИМ ОБ ЭТОМ
+        - heading "Нормальные вопросы." [level=2] [ref=f3e516]: Нормальныевопросы.
+        - paragraph [ref=f3e517]: Если вашего здесь нет —просто напишите мастеру.
+        - link "Написать мастеру" [ref=f3e518] [cursor=pointer]:
+          - /url: https://t.me/sotremont
+      - generic [ref=f3e521]:
+        - group [ref=f3e522]:
+          - generic "Сколько занимает диагностика?" [ref=f3e523] [cursor=pointer]
+        - group [ref=f3e526]:
+          - generic "Можно ли узнать цену заранее?" [ref=f3e527] [cursor=pointer]
+        - group [ref=f3e530]:
+          - generic "Что делать, если телефон попал в воду?" [ref=f3e531] [cursor=pointer]
+        - group [ref=f3e534]:
+          - generic "Сохранятся ли данные?" [ref=f3e535] [cursor=pointer]
+        - group [ref=f3e538]:
+          - generic "Есть ли гарантия?" [ref=f3e539] [cursor=pointer]
+        - group [ref=f3e542]:
+          - generic "Какие способы оплаты доступны?" [ref=f3e543] [cursor=pointer]
+        - group [ref=f3e546]:
+          - generic "Можно ли приехать без записи?" [ref=f3e547] [cursor=pointer]
+        - group [ref=f3e550]:
+          - generic "Где находится вход?" [ref=f3e551] [cursor=pointer]
+    - generic [ref=f3e555]:
+      - generic [ref=f3e556]:
+        - generic [ref=f3e557]: УВИДИМСЯ В МАСТЕРСКОЙ
+        - heading "Мы тут. Заходите." [level=2] [ref=f3e558]: Мы тут.Заходите.
+        - generic [ref=f3e559]:
+          - strong [ref=f3e560]: Казань, Сибирский Тракт, 7/6
+          - generic [ref=f3e561]: магазин «Хлебозавод № 3»
+          - generic [ref=f3e562]: Россия, Республика Татарстан
+        - generic [ref=f3e567]:
+          - strong [ref=f3e568]: Ежедневно, 10:00–19:00
+          - generic [ref=f3e569]: График по 2ГИС. Перед визитом в праздники уточните время у мастера.
+        - link "+7 995 942-13-38" [ref=f3e570] [cursor=pointer]:
+          - /url: tel:+79959421338
+        - generic [ref=f3e573]:
+          - link "Telegram" [ref=f3e574] [cursor=pointer]:
+            - /url: https://t.me/sotremont
+          - link "WhatsApp" [ref=f3e578] [cursor=pointer]:
+            - /url: https://wa.me/79959421338
+      - generic [ref=f3e582]:
+        - generic [aria-hidden] [ref=f3e583]:
+          - generic [ref=f3e590]: СИБИРСКИЙ ТРАКТ
+          - generic [ref=f3e595]:
+            - text: СотРемонт
+            - generic [ref=f3e596]: 7/6
+          - generic [ref=f3e597]: КАЗАНЬ
+        - generic [ref=f3e598]:
+          - generic [ref=f3e599]: Схема-иллюстрация. Точный маршрут — на картах.
+          - heading "Ориентир — «Хлебозавод № 3»" [level=3] [ref=f3e600]
+          - paragraph [ref=f3e601]: Если не нашли вход, позвоните.Мастер подскажет, как пройти.
+          - link "Построить маршрут" [ref=f3e602] [cursor=pointer]:
+            - /url: https://yandex.ru/maps/?mode=routes&rtext=~Казань%2C%20Сибирский%20Тракт%2C%207%2F6&rtt=auto
+          - generic [ref=f3e605]:
+            - link "Яндекс Карты" [ref=f3e606] [cursor=pointer]:
+              - /url: https://yandex.ru/maps/org/sotremont/196388969596/
+            - link "2ГИС" [ref=f3e609] [cursor=pointer]:
+              - /url: https://2gis.ru/kazan/firm/70000001083733393
+  - contentinfo [ref=f3e612]:
+    - generic [ref=f3e613]:
+      - generic [ref=f3e614]:
+        - link "СотРемонт Ремонт телефонов. Казань." [ref=f3e615] [cursor=pointer]:
+          - /url: "#"
+          - text: СотРемонт
+          - generic [ref=f3e616]: Ремонт телефонов. Казань.
+        - paragraph [ref=f3e617]:
+          - text: Сафин Фаннур Фанилович
+          - link "+7 995 942-13-38" [ref=f3e618] [cursor=pointer]:
+            - /url: tel:+79959421338
+        - generic [ref=f3e619]:
+          - link "Telegram ↗" [ref=f3e620] [cursor=pointer]:
+            - /url: https://t.me/sotremont
+          - link "WhatsApp ↗" [ref=f3e621] [cursor=pointer]:
+            - /url: https://wa.me/79959421338
+          - link "Яндекс Карты ↗" [ref=f3e622] [cursor=pointer]:
+            - /url: https://yandex.ru/maps/org/sotremont/196388969596/
+          - link "2ГИС ↗" [ref=f3e623] [cursor=pointer]:
+            - /url: https://2gis.ru/kazan/firm/70000001083733393
+      - generic [ref=f3e624]:
+        - generic [ref=f3e625]: © 2026 СотРемонт
+        - button "Политика конфиденциальности" [ref=f3e626] [cursor=pointer]
+        - button "Обработка данных заявки" [ref=f3e627] [cursor=pointer]
+        - generic [ref=f3e628]: Сделано с характером ✳
+  - navigation "Быстрая связь" [ref=f3e629]:
+    - link "Позвонить" [ref=f3e630] [cursor=pointer]:
+      - /url: tel:+79959421338
+    - link "Telegram" [ref=f3e634] [cursor=pointer]:
+      - /url: https://t.me/sotremont
+    - link "Маршрут" [ref=f3e639] [cursor=pointer]:
+      - /url: https://yandex.ru/maps/?mode=routes&rtext=~Казань%2C%20Сибирский%20Тракт%2C%207%2F6&rtt=auto
+```
+### Events
+- New console entries: .playwright-cli\console-2026-09-05T10-59-41-299Z.log#L2-L4
