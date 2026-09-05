@@ -442,7 +442,7 @@ export const site = {
     description:
       "Ремонт телефонов и аксессуары в Казани. Опишите проблему, узнайте возможный ремонт и свяжитесь с мастером СотРемонт. Сибирский Тракт, 7/6. +7 995 942-13-38.",
     canonicalUrl: null as string | null, // TODO: подтвердить у владельца адрес нового сайта; не подставлять старый или вымышленный домен.
-    socialImage: "/assets/sotremont-logo-official.jpg",
+    socialImage: "assets/sotremont-logo-official.jpg",
     metrikaId: null as number | null, // TODO: подтвердить у владельца ID и правила согласия до подключения Метрики.
   },
 };

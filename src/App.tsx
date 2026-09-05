@@ -19,7 +19,7 @@ const navigation = [
   { title: "Отзывы", href: "#reviews" },
   { title: "Контакты", href: "#contacts" },
 ];
-const mascot = "/assets/sotremont-logo-official.jpg";
+const mascot = `${import.meta.env.BASE_URL}assets/sotremont-logo-official.jpg`;
 
 function Header() {
   const [open, setOpen] = useState(false);
